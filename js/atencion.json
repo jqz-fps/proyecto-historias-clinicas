@@ -1,0 +1,36 @@
+[
+    {
+      "id_registro": 1,
+      "medico": {
+        "id_medico": 5,
+        "nombre": "Luis Rodríguez"
+      },
+      "paciente": {
+        "id_paciente": 101,
+        "nombre": "Andrea Gómez"
+      },
+      "fecha_atencion": "2025-05-12",
+      "especialidad": "Oncología",
+      "motivo_consulta": "Dolor persistente en el abdomen",
+      "diagnostico": "Gastritis crónica",
+      "tratamiento": "Medicamentos antiácidos y dieta blanda",
+      "observaciones": "Se recomienda seguimiento en 2 semanas"
+    },
+    {
+      "id_registro": 2,
+      "medico": {
+        "id_medico": 2,
+        "nombre": "María López"
+      },
+      "paciente": {
+        "id_paciente": 102,
+        "nombre": "Javier Ramos"
+      },
+      "fecha_atencion": "2025-05-11",
+      "especialidad": "Pediatría",
+      "motivo_consulta": "Fiebre alta y tos",
+      "diagnostico": "Infección respiratoria",
+      "tratamiento": "Antibióticos y reposo",
+      "observaciones": "Control en 5 días"
+    }
+  ]

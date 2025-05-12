@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "García",
+      "especialidad": "Cardiología"
+    },
+    {
+      "id": 2,
+      "nombre": "María",
+      "apellido": "López",
+      "especialidad": "Pediatría"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos",
+      "apellido": "Pérez",
+      "especialidad": "Dermatología"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "especialidad": "Neurología"
+    },
+    {
+      "id": 5,
+      "nombre": "Luis",
+      "apellido": "Rodríguez",
+      "especialidad": "Oncología"
+    },
+    {
+      "id": 6,
+      "nombre": "Patricia",
+      "apellido": "Sánchez",
+      "especialidad": "Ginecología"
+    },
+    {
+      "id": 7,
+      "nombre": "Javier",
+      "apellido": "Ramírez",
+      "especialidad": "Ortopedia"
+    },
+    {
+      "id": 8,
+      "nombre": "Lucía",
+      "apellido": "Torres",
+      "especialidad": "Oftalmología"
+    },
+    {
+      "id": 9,
+      "nombre": "Miguel",
+      "apellido": "Flores",
+      "especialidad": "Psiquiatría"
+    },
+    {
+      "id": 10,
+      "nombre": "Elena",
+      "apellido": "Díaz",
+      "especialidad": "Endocrinología"
+    }
+  ]

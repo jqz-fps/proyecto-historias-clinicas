@@ -1,0 +1,31 @@
+{
+  "nombre": "",
+  "fecha_nacimiento": "",
+  "edad": 0,
+  "dni": "",
+  "sexo": "",
+  "historial_clinico": {
+    "enfermedades": "",
+    "alergias": "",
+    "diagnostico": "",
+    "fecha_diagnostico": "",
+    "tratamiento": "",
+    "fecha_tratamiento": "",
+    "medicacion": {
+      "nombre": "",
+      "dosis": "",
+      "frecuencia": ""
+    }
+  },
+  "direccion": {
+    "calle": "",
+    "numero": "",
+    "ciudad": "",
+    "provincia": "",
+    "codigo_postal": ""
+  },
+  "telefono": "",
+  "nacionalidad": "",
+  "estado_civil": "",
+  "activo": true
+}

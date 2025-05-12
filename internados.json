@@ -1,31 +1,157 @@
-{
-  "nombre": "",
-  "fecha_nacimiento": "",
-  "edad": 0,
-  "dni": "",
-  "sexo": "",
-  "historial_clinico": {
-    "enfermedades": "",
-    "alergias": "",
-    "diagnostico": "",
-    "fecha_diagnostico": "",
-    "tratamiento": "",
-    "fecha_tratamiento": "",
-    "medicacion": {
-      "nombre": "",
-      "dosis": "",
-      "frecuencia": ""
-    }
+[
+  {
+    "nombre": "María González López",
+    "fecha_nacimiento": "1985-03-15",
+    "edad": 38,
+    "dni": "12345678A",
+    "sexo": "Femenino",
+    "historial_clinico": {
+      "enfermedades": "Hipertensión",
+      "alergias": "Penicilina",
+      "diagnostico": "Hipertensión arterial grado 1",
+      "fecha_diagnostico": "2020-05-10",
+      "tratamiento": "Control periódico de presión arterial",
+      "fecha_tratamiento": "2020-05-15",
+      "medicacion": {
+        "nombre": "Enalapril",
+        "dosis": "10 mg",
+        "frecuencia": "1 vez al día"
+      }
+    },
+    "direccion": {
+      "calle": "Mayor",
+      "numero": "15",
+      "ciudad": "Madrid",
+      "provincia": "Madrid",
+      "codigo_postal": "28013"
+    },
+    "telefono": "600123456",
+    "nacionalidad": "Española",
+    "estado_civil": "Casada",
+    "activo": true
   },
-  "direccion": {
-    "calle": "",
-    "numero": "",
-    "ciudad": "",
-    "provincia": "",
-    "codigo_postal": ""
+  {
+    "nombre": "Juan Pérez Martínez",
+    "fecha_nacimiento": "1978-07-22",
+    "edad": 45,
+    "dni": "87654321B",
+    "sexo": "Masculino",
+    "historial_clinico": {
+      "enfermedades": "Diabetes tipo 2",
+      "alergias": "Ninguna",
+      "diagnostico": "Diabetes mellitus tipo 2",
+      "fecha_diagnostico": "2018-11-03",
+      "tratamiento": "Control glucémico y dieta",
+      "fecha_tratamiento": "2018-11-05",
+      "medicacion": {
+        "nombre": "Metformina",
+        "dosis": "850 mg",
+        "frecuencia": "2 veces al día"
+      }
+    },
+    "direccion": {
+      "calle": "Gran Vía",
+      "numero": "32",
+      "ciudad": "Barcelona",
+      "provincia": "Barcelona",
+      "codigo_postal": "08001"
+    },
+    "telefono": "699987654",
+    "nacionalidad": "Española",
+    "estado_civil": "Soltero",
+    "activo": true
   },
-  "telefono": "",
-  "nacionalidad": "",
-  "estado_civil": "",
-  "activo": true
-}
+  {
+    "nombre": "Ana Rodríguez Sánchez",
+    "fecha_nacimiento": "1992-12-05",
+    "edad": 30,
+    "dni": "45678912C",
+    "sexo": "Femenino",
+    "historial_clinico": {
+      "enfermedades": "Asma",
+      "alergias": "Ácaros, polvo",
+      "diagnostico": "Asma alérgica moderada",
+      "fecha_diagnostico": "2015-09-18",
+      "tratamiento": "Inhaladores de rescate y control",
+      "fecha_tratamiento": "2015-09-20",
+      "medicacion": {
+        "nombre": "Salbutamol",
+        "dosis": "100 mcg",
+        "frecuencia": "Cuando sea necesario"
+      }
+    },
+    "direccion": {
+      "calle": "Alcalá",
+      "numero": "75",
+      "ciudad": "Valencia",
+      "provincia": "Valencia",
+      "codigo_postal": "46003"
+    },
+    "telefono": "655444333",
+    "nacionalidad": "Española",
+    "estado_civil": "Divorciada",
+    "activo": true
+  },
+  {
+    "nombre": "Carlos Fernández Jiménez",
+    "fecha_nacimiento": "1965-04-30",
+    "edad": 58,
+    "dni": "32165498D",
+    "sexo": "Masculino",
+    "historial_clinico": {
+      "enfermedades": "Artritis reumatoide",
+      "alergias": "Mariscos",
+      "diagnostico": "Artritis reumatoide seropositiva",
+      "fecha_diagnostico": "2010-02-14",
+      "tratamiento": "Terapia biológica",
+      "fecha_tratamiento": "2010-02-20",
+      "medicacion": {
+        "nombre": "Adalimumab",
+        "dosis": "40 mg",
+        "frecuencia": "Cada 2 semanas"
+      }
+    },
+    "direccion": {
+      "calle": "Príncipe de Vergara",
+      "numero": "120",
+      "ciudad": "Sevilla",
+      "provincia": "Sevilla",
+      "codigo_postal": "41002"
+    },
+    "telefono": "677888999",
+    "nacionalidad": "Española",
+    "estado_civil": "Viudo",
+    "activo": true
+  },
+  {
+    "nombre": "Laura Méndez Ortiz",
+    "fecha_nacimiento": "1980-09-12",
+    "edad": 42,
+    "dni": "78912345E",
+    "sexo": "Femenino",
+    "historial_clinico": {
+      "enfermedades": "Depresión",
+      "alergias": "Ninguna",
+      "diagnostico": "Trastorno depresivo mayor",
+      "fecha_diagnostico": "2019-07-22",
+      "tratamiento": "Terapia cognitivo-conductual",
+      "fecha_tratamiento": "2019-07-25",
+      "medicacion": {
+        "nombre": "Sertralina",
+        "dosis": "50 mg",
+        "frecuencia": "1 vez al día"
+      }
+    },
+    "direccion": {
+      "calle": "Castellana",
+      "numero": "200",
+      "ciudad": "Bilbao",
+      "provincia": "Vizcaya",
+      "codigo_postal": "48001"
+    },
+    "telefono": "644555666",
+    "nacionalidad": "Española",
+    "estado_civil": "Casada",
+    "activo": true
+  }
+]

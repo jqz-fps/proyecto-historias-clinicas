@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mostrar datos de Medico</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background: #f5f7fa;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  thead {
+    background-color: #2980b9;
+    color: white;
+  }
+  thead th {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  tbody td {
+    padding: 12px 15px;
+  }
+  .error {
+    max-width: 600px;
+    margin: 20px auto;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+</style>
+</head>
+<body>
+  <h1>Lista de Médicos</h1>
+  <table id="dataTable" aria-label="Tabla con lista de médicos">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Especialidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Datos se insertarán aquí -->
+    </tbody>
+  </table>
+
+  <div id="errorMsg" class="error" role="alert" aria-live="assertive" style="display:none;"></div>
+
+  <script>
+    async function loadJsonData() {
+      try {
+        const response = await fetch('medicos.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        populateTable(data);
+      } catch (error) {
+        document.getElementById('errorMsg').textContent = 'Error al cargar los datos: ' + error.message;
+        document.getElementById('errorMsg').style.display = 'block';
+        console.error('Error fetching or parsing JSON:', error);
+      }
+    }
+
+    function populateTable(data) {
+      const tbody = document.querySelector('#dataTable tbody');
+      tbody.innerHTML = '';
+
+      data.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${item.id}</td>
+          <td>${item.nombre}</td>
+          <td>${item.apellido}</td>
+          <td>${item.especialidad}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    window.addEventListener('DOMContentLoaded', loadJsonData);
+  </script>
+</body>
+</html>
+
